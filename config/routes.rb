@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'feed/index'
+  get 'feed/index', as: 'user_root'
 
   get 'main/index'
 
