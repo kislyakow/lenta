@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'feed/index'
+
   get 'main/index'
 
   resources :posts
