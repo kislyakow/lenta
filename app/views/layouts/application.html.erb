@@ -7,8 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<nav class="navbar navbar-default navbar-static-top " role="navigation">
+  	<div class="container">
+    	<a class="navbar-brand" href="http://localhost:3000"> LENTA</a>
+  	</div>
 
-<%= yield %>
-
+	</nav>
+	<div class="container">
+		<%= yield %>
+	</div>
 </body>
 </html>
