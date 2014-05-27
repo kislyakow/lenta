@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'devise'
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'
@@ -22,3 +23,4 @@ group :development do
   gem "better_errors"
   gem 'spring'
 end
+
